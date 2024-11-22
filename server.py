@@ -4,6 +4,7 @@ from _thread import start_new_thread
 
 server = ""
 port = 5555
+player_cap = 2
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)  # Allow port reuse
@@ -13,7 +14,6 @@ try:
 except socket.error as e:
     print(f"Binding error: {e}")
 
-player_cap = 3
 s.listen(player_cap)
 print("Waiting for a connection, Server Started")
 

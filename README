@@ -1,0 +1,12 @@
+**How to Host a Game (everyone has to be on the same wifi)**
+*Run the server before the network / clients*
+*Make sure everyone is on the same wifi*
+1. Enter your local IP adress into server veriable
+2. enter a port number that is unused eg 5555
+3. enter the ammount of players in the game into the playercap
+
+**How to join a game**
+1. Enter the local IP and port number of the server host
+2. Run game in a terminal seperate to the server terminal (a dedicated terminal)
+3. If running multiple players on the same sever use of the clients and run in a dedicated terminal
+4. Wait for all players to fill the game
